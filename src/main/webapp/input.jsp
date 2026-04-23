@@ -9,13 +9,13 @@
 
 <body>
 	<h1>お問い合わせ内容</h1>
-	<form action="/contact/confirm" method="post">
+	<form action="Confirm" method="post">
 		名前：<input type="text" name="oname"><br>
 		メールアドレス：<input type="email" name="mail_address"><br>
 		性別：
 		<input type="radio" name="sex" value="male">男性
 		<input type="radio" name="sex" value="female">女性<br>
-		お問い合わせ種別：
+		お問い合わせ種別：<br>
 		<input type="checkbox" name="cates" value="product">製品について<br>
 		<input type="checkbox" name="cates" value="service">サービスについて<br>
 		<input type="checkbox" name="cates" value="recruit">採用について<br>
@@ -32,7 +32,7 @@
 			<option value="九州・沖縄">九州・沖縄</option>
 		</select><br>
 		メッセージ<br>
-		<textarea name="message" rows="5" cols="50">ここに入力</textarea>
+		<textarea name="message" rows="5" cols="50">ここに入力</textarea><br>
 		<input type="submit" value="送信">
 	</form>
 </body>

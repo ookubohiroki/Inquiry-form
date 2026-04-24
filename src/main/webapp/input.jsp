@@ -10,16 +10,16 @@
 <body>
 	<h1>お問い合わせ内容</h1>
 	<form action="Confirm" method="post">
-		名前：<input type="text" name="oname"><br>
+		名前：<input type="text" name="onamae"><br>
 		メールアドレス：<input type="email" name="mail_address"><br>
 		性別：
 		<input type="radio" name="sex" value="male">男性
 		<input type="radio" name="sex" value="female">女性<br>
 		お問い合わせ種別：<br>
-		<input type="checkbox" name="cates" value="product">製品について<br>
-		<input type="checkbox" name="cates" value="service">サービスについて<br>
-		<input type="checkbox" name="cates" value="recruit">採用について<br>
-		<input type="checkbox" name="cates" value="other">その他<br>
+		<input type="checkbox" name="cates" value="製品について">製品について<br>
+		<input type="checkbox" name="cates" value="サービスについて">サービスについて<br>
+		<input type="checkbox" name="cates" value="採用について">採用について<br>
+		<input type="checkbox" name="cates" value="その他">その他<br>
 		住まいエリア：
 		<select name="pref" size="1">
 			<option value="北海道">北海道</option>

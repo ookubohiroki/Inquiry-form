@@ -7,7 +7,7 @@
 <title>確認画面</title>
 </head>
 <body>
-	<form action="Thanks" method="post">
+	<form action="/contact/Thanks" method="post">
 		<input type="hidden" name="onamae" value=${onamae}>
 		<input type="hidden" name="mail_address" value=${mail_address}>
 		<input type="hidden" name="sex" value=${sex}>

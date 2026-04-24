@@ -9,7 +9,7 @@
 
 <body>
 	<h1>お問い合わせ内容</h1>
-	<form action="Confirm" method="post">
+	<form action="/contact/Confirm" method="post">
 		名前：<input type="text" name="onamae"><br>
 		メールアドレス：<input type="email" name="mail_address"><br>
 		性別：
